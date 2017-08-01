@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    
+    
+    <body>
+        
+        
+        <div id = "section1"> 
+        
+        <button onclick = "myFunction()">Eddy</button>
+        
+        <br>
+        
+        <img id = "demo" src = "http://vignette2.wikia.nocookie.net/onepiece/images/7/78/Marshall_D._Teach_Anime_Infobox.png/revision/latest?cb=20160919025136">
+        
+        <p id = "check"></p>
+        
+        </div>
+        
+        <p>vs </p>
+        <div id = "section2">Blackbeard</div>
+        
+        
+        
+        <script>
+        
+        function myFunction(){
+            img1 = "http://vignette2.wikia.nocookie.net/onepiece/images/7/78/Marshall_D._Teach_Anime_Infobox.png/revision/latest?cb=20160919025136"
+            
+            img2 = "http://orig00.deviantart.net/6329/f/2015/293/1/c/marshall_teach_x_reader__poor_unfortunate_souls_by_shadowfollowed-d9dsd42.jpg"
+            
+            
+            if(document.getElementById("demo").src == img1){
+         
+            
+            document.getElementById("demo").src = img2;
+            
+            
+            }
+            
+            else {
+                document.getElementById("demo").src = img1;
+                
+                
+                
+            }
+        
+        }
+        </script>
+        
+        
+        
+        
+        
+    </body>
+</html>
